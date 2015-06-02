@@ -1,0 +1,17 @@
+{
+  "name": "Cracked",
+  "description": "A virtual cracked screen for your FirefoxOS device. Broken glass image by Nevit Dilmen via Wikimedia Commons.",
+  "developer": {
+    "name": "David Flanagan"
+  },
+  "role": "addon",
+  "type": "certified",
+  "customizations": [{
+    "filter": "system.gaiamobile.org",
+    "css": [],
+    "scripts": ["cracked.js"]
+  }],
+  "icons": {
+    "128": "/style/icons/128.png"
+  }
+}
