@@ -4,6 +4,7 @@
   "developer": {
     "name": "David Flanagan"
   },
+  "package_path": "package.zip",
   "role": "addon",
   "type": "certified",
   "customizations": [{
