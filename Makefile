@@ -1,2 +1,2 @@
 package:
-	zip package.zip cracked.js manifest.webapp -r style
+	zip extension.zip cracked.js manifest.json update.manifest -r style

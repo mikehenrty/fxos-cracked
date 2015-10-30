@@ -1,0 +1,14 @@
+{
+  "name" : "Cracked Screen",
+  "description": "A virtual cracked screen for your FirefoxOS device. Inspired by David Flanagan. Broken glass image by Nevit Dilmen via Wikimedia Commons.",
+  "author": "Michael Henretty",
+  "manifest_version": 2,
+  "version": "2.0",
+  "content_scripts": [{
+    "matches": ["app://system.gaiamobile.org/index.html"],
+    "js": ["cracked.js"]
+  }],
+  "icons": {
+    "128": "/style/icons/128.png"
+  }
+}
