@@ -51,7 +51,7 @@
     setTimeout(animateCrack, 0);
     setTimeout(function() {
       crack.remove();
-    }, 7100);
+    }, 8100);
   }
 
   function initCrackedScreen() {
