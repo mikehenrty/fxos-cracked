@@ -21,18 +21,18 @@
     crack.style.zIndex = '10000000';
     crack.style.pointerEvents = 'none';
     crack.style.display = 'block';
-    crack.style.transition = 'opacity 1s, transform 1s, height 1s, width 1s';
+    crack.style.transition = 'opacity 7s 1s, transform 1s, height 1s, width 1s';
     crack.style.borderRadius = '100%';
     crack.style.backgroundSize = '320px auto';
     crack.style.backgroundPosition = 'calc(50% - 50px) calc(50% + 10px)';
     crack.style.backgroundRepeat = 'no-repeat';
-    crack.style.opacity = '0.85';
+    crack.style.opacity = '1';
     //crack.style.backgroundColor = 'rgba(0, 255, 0, .3)';
     crack.style.transform = 'none';
     crack.style._transform = 'translateX(-250px) translateY(-250px)';
     crack.style._height = '600px';
     crack.style._width = '600px';
-    crack.style._opacity = '1';
+    crack.style._opacity = '0';
 
     // Cracked glass image modified from
     // http://commons.wikimedia.org/wiki/File:Broken_glass_1040822_Nevit.jpg
@@ -51,7 +51,7 @@
     setTimeout(animateCrack, 0);
     setTimeout(function() {
       crack.remove();
-    }, 1100);
+    }, 7100);
   }
 
   function initCrackedScreen() {
