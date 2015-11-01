@@ -1,6 +1,6 @@
 {
-  "name" : "Cracked Screen",
-  "description": "A virtual cracked screen for your FirefoxOS device. Inspired by David Flanagan. Broken glass image by Nevit Dilmen via Wikimedia Commons.",
+  "name" : "Tap Powerup",
+  "description": "Upgrade your screen tapping ability. Inspired by David Flanagan.",
   "author": "Michael Henretty",
   "manifest_version": 2,
   "version": "2.0",
@@ -9,6 +9,6 @@
     "js": ["cracked.js"]
   }],
   "icons": {
-    "128": "/style/icons/128.png"
+    "800": "/style/icons/punch.jpg"
   }
 }
