@@ -64,13 +64,16 @@
     };
     document.body.addEventListener('touchstart', touchHandler);
 
-    navigator.mozApps.mgmt.addEventListener('enabledstatechange', function kill(event) {
+    var kill = function(event) {
       var app = event.application;
-      if (app.manifest.name === 'Tap PowerUp' && !app.enabled) {
+      if (app.manifest.name === 'Tap PowerUp' && (event.type === 'uninstall' || !app.enabled)) {
         navigator.mozApps.mgmt.removeEventListener('enabledstatechange', kill);
+        navigator.mozApps.mgmt.removeEventListener('uninstall', kill);
         document.body.removeEventListener('touchstart', touchHandler);
       }
-    });
+    };
+    navigator.mozApps.mgmt.addEventListener('enabledstatechange', kill);
+    navigator.mozApps.mgmt.addEventListener('uninstall', kill);
   }
 
   if (document.documentElement) {
