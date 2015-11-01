@@ -21,7 +21,7 @@
     crack.style.zIndex = '10000000';
     crack.style.pointerEvents = 'none';
     crack.style.display = 'block';
-    crack.style.transition = 'opacity 7s 1s, transform 1s, height 1s, width 1s';
+    crack.style.transition = 'opacity 7s .3s, transform .2s, height .2s, width .2s';
     crack.style.borderRadius = '100%';
     crack.style.backgroundSize = '320px auto';
     crack.style.backgroundPosition = 'calc(50% - 50px) calc(50% + 10px)';
