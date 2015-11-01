@@ -27,9 +27,9 @@
     crack.style.backgroundPosition = 'calc(50% - 50px) calc(50% + 10px)';
     crack.style.backgroundRepeat = 'no-repeat';
     crack.style.opacity = '1';
-    //crack.style.backgroundColor = 'rgba(0, 255, 0, .3)';
-    crack.style.transform = 'none';
-    crack.style._transform = 'translateX(-250px) translateY(-250px)';
+    crack.style.transform = 'rotate(' + Math.random() + 'turn)';
+    crack.style.transformOrigin = '50px 50px';
+    crack.style._transform = crack.style.transform + ' translateX(-250px) translateY(-250px)';
     crack.style._height = '600px';
     crack.style._width = '600px';
     crack.style._opacity = '0';
