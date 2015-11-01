@@ -66,7 +66,7 @@
 
     navigator.mozApps.mgmt.addEventListener('enabledstatechange', function kill(event) {
       var app = event.application;
-      if (app.manifest.name === 'Cracked Screen' && !app.enabled) {
+      if (app.manifest.name === 'Tap PowerUp' && !app.enabled) {
         navigator.mozApps.mgmt.removeEventListener('enabledstatechange', kill);
         document.body.removeEventListener('touchstart', touchHandler);
       }

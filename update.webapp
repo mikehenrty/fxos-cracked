@@ -1,5 +1,5 @@
 {
-  "name" : "Tap Powerup",
+  "name" : "Tap PowerUp",
   "description": "Upgrade your screen tapping ability. Inspired by David Flanagan.",
   "developer": { "name": "Michael Henretty" },
   "package_path": "extension.zip",
