@@ -4,6 +4,6 @@
   "developer": { "name": "Michael Henretty" },
   "package_path": "extension.zip",
   "icons": {
-    "128": "/style/icons/punch.jpg"
+    "128": "/style/icons/punch.png"
   }
 }
