@@ -56,8 +56,11 @@
 
   function initCrackedScreen() {
     var touchHandler = function(evt) {
-      var touch = evt.touches[0];
-      createCrack(touch.screenX, touch.screenY);
+      var touches = evt.touches;
+      for (var i = 0; i < touches.length; i++) {
+        var touch = touches[i];
+        createCrack(touch.screenX, touch.screenY);
+      }
     };
     document.body.addEventListener('touchstart', touchHandler);
 
