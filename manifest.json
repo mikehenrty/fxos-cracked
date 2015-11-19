@@ -2,8 +2,8 @@
   "name" : "Tap PowerUp",
   "description": "Upgrade your screen tapping ability. Inspired by David Flanagan.",
   "author": "Michael Henretty",
-  "manifest_version": 2,
-  "version": "2.0",
+  "manifest_version": 3,
+  "version": "3.0",
   "content_scripts": [{
     "matches": ["app://system.gaiamobile.org/index.html"],
     "js": ["cracked.js"]
